@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.crudObras.UploadObraActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/uploadNome"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="start|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:hint="Nome"
+            android:padding="16dp" />
+
+
+        <EditText
+            android:id="@+id/uploadAutor"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="start|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:hint="Autor"
+            android:padding="16dp" />
+
+        <EditText
+            android:id="@+id/uploadData"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="start|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:hint="Data da Criação"
+            android:padding="16dp" />
+
+        <EditText
+            android:id="@+id/uploadDescricao"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="start|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:hint="Descricao"
+            android:padding="16dp" />
+
+        <EditText
+            android:id="@+id/uploadImagem"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="start|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:hint="Imagem"
+            android:padding="16dp" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Salvar"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

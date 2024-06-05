@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "941863792591",
+    "project_id": "espaco-cultural-unifor-fda34",
+    "storage_bucket": "espaco-cultural-unifor-fda34.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941863792591:android:267751ad2b9b28e9ccacba",
+        "android_client_info": {
+          "package_name": "br.com.espaoculturalunifor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy5rLqQqLymzlpAlO2s7t3ArGTYMfyBdk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

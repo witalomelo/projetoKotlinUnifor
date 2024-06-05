@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:padding="16dp"
+    tools:context=".ui.crudQuiz.UpdateQuizActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/referenceId"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="start|center_vertical"
+            android:hint="Id"
+            android:padding="16dp" />
+
+        <EditText
+            android:id="@+id/updatePergunta"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="start|center_vertical"
+            android:hint="Pergunta"
+            android:padding="16dp" />
+
+        <EditText
+            android:id="@+id/updateItemA"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="start|center_vertical"
+            android:hint="Item A"
+            android:padding="16dp" />
+
+        <EditText
+            android:id="@+id/updateItemB"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="start|center_vertical"
+            android:hint="Item B"
+            android:padding="16dp" />
+
+        <EditText
+            android:id="@+id/updateItemC"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="start|center_vertical"
+            android:hint="Item C"
+            android:padding="16dp" />
+
+        <EditText
+            android:id="@+id/updateItemD"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="start|center_vertical"
+            android:hint="Item D"
+            android:padding="16dp" />
+
+        <EditText
+            android:id="@+id/updateItemCorreto"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="start|center_vertical"
+            android:hint="Item Correto"
+            android:padding="16dp" />
+
+        <Button
+            android:id="@+id/updateButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:text="Alterar"
+            android:textSize="20sp"
+            app:cornerRadius="20dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
