@@ -1,4 +1,4 @@
-package br.com.client.ui.activity.quiz
+package br.com.client.ranking
 
 import android.os.Bundle
 import android.util.Log
@@ -6,8 +6,6 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import br.com.client.databinding.ActivityRankingBinding
-import br.com.client.ranking.Player
-import br.com.client.ranking.RankingListAdapter
 import com.google.firebase.database.*
 
 class RankingActivity : AppCompatActivity() {

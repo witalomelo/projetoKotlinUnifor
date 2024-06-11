@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.activity.quiz.ResultActivity"
+    tools:context="br.com.client.ranking.ResultActivity"
     android:background="@drawable/app_bg"
     android:gravity="center"
     android:paddingHorizontal="30dp"
@@ -54,7 +54,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
-        android:text="Score"
+        android:text="Ranking"
         android:textAllCaps="true"
         android:textColor="@color/colorPrimary"
         android:textSize="18sp" />

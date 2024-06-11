@@ -21,7 +21,7 @@
 
         </activity>
         <activity
-            android:name=".ui.activity.quiz.ResultActivity"
+            android:name="br.com.client.ranking.ResultActivity"
             android:exported="false" />
         <activity
             android:name=".ui.activity.quiz.QuizQuestionsActivity"

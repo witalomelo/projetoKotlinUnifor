@@ -1,10 +1,11 @@
-package br.com.client.ui.activity.quiz
+package br.com.client.ranking
 
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import br.com.client.databinding.ActivityResultBinding
+import br.com.client.ui.activity.quiz.MainActivity
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 
