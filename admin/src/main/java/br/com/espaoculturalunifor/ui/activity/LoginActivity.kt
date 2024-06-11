@@ -1,8 +1,8 @@
 package br.com.espaoculturalunifor.ui.activity
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import br.com.espaoculturalunifor.databinding.ActivityLoginBinding
 
 class LoginActivity : AppCompatActivity() {
@@ -13,6 +13,12 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        binding.buttonCadastrar.setOnClickListener{
+            val intent = Intent(this@LoginActivity, MainActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
 
         binding.buttonLogin.setOnClickListener {
             val email = binding.editEmail.text.toString()

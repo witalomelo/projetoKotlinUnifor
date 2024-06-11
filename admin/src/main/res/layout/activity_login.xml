@@ -51,7 +51,7 @@
         android:layout_marginTop="20dp"
         android:background="@android:color/transparent"
         android:gravity="center"
-        android:text="É visitante, clique aqui!"
+        android:text="É visitante? Então clique aqui!"
         android:textColor="@color/white"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"

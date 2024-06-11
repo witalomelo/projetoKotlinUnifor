@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 rootProject.name = "Espaço Cultural Unifor"
 include(":admin")
 include(":client")
+
