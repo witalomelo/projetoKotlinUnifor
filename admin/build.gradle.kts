@@ -2,15 +2,14 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("com.google.gms.google-services")
-    id ("kotlin-parcelize")
 }
 
 android {
-    namespace = "br.com.client"
+    namespace = "br.com.espaoculturalunifor"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "br.com.client"
+        applicationId = "br.com.espaoculturalunifor"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -52,4 +51,5 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
     implementation("io.coil-kt:coil:2.6.0")
+
 }
