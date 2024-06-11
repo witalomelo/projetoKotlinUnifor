@@ -14,7 +14,13 @@ class LoginActivity : AppCompatActivity() {
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.buttonCadastrar.setOnClickListener{
+        binding.buttonCadastrarAdm.setOnClickListener {
+            val intent = Intent(this@LoginActivity, CadastroActivty::class.java)
+            startActivity(intent)
+            finish()
+        }
+
+        binding.buttonCadastrar.setOnClickListener {
             val intent = Intent(this@LoginActivity, MainActivity::class.java)
             startActivity(intent)
             finish()

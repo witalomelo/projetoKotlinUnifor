@@ -19,13 +19,13 @@ class OpcoesActivity : AppCompatActivity() {
         binding.activityOpcoesAdmObras.setOnClickListener{
             val intent = Intent(this@OpcoesActivity, MainActivity::class.java)
             startActivity(intent)
-            finish()
+//            finish()
         }
 
         binding.activityOpcoesAdmQuiz.setOnClickListener{
             val intent = Intent(this@OpcoesActivity, MainActivityQuiz::class.java)
             startActivity(intent)
-            finish()
+//            finish()
         }
 
     }

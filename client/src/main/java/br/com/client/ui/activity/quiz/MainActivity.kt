@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         binding.btnStart.setOnClickListener {
             val userName = binding.etName.text.toString()
             databaseReference = FirebaseDatabase.getInstance().getReference("Diretorio de Jogadores")
-            val jogadores = Jogador(userName, score = 0)
+            val jogadores = Jogador(userName, score = null)
             databaseReference.child(userName).setValue(jogadores)
 
             val intent = Intent(this, QuizQuestionsActivity::class.java)
