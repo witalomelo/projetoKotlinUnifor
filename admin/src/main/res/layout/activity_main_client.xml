@@ -9,10 +9,19 @@
     tools:context=".ui.activity.MainActivity">
 
     <Button
-        android:id="@+id/activity_opcoes_adm_obras"
+        android:id="@+id/activity_opcoes_adm_exposicao"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="250dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Exposicoes"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/activity_opcoes_adm_obras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:backgroundTint="@color/colorPrimary"
         android:text="Visualizar Obras"
         android:textColor="@color/white" />
@@ -25,6 +34,8 @@
         android:backgroundTint="@color/colorPrimary"
         android:text="Quiz"
         android:textColor="@color/white" />
+
+
 
 
 </LinearLayout>

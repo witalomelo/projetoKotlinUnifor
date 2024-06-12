@@ -28,5 +28,10 @@ class OpcoesActivity : AppCompatActivity() {
 //            finish()
         }
 
+        binding.activityOpcoesAdmExposicao.setOnClickListener{
+            val intent = Intent(this@OpcoesActivity, CadastroExposicaoActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }
