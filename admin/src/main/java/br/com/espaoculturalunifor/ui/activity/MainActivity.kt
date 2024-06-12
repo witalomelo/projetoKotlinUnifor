@@ -16,15 +16,20 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainClientBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.activityOpcoesAdmObras.setOnClickListener(){
+        binding.activityOpcoesAdmObras.setOnClickListener() {
             val intent = Intent(this@MainActivity, ObraActivity::class.java)
             startActivity(intent)
         }
 
-        binding.activityOpcoesAdmQuiz.setOnClickListener{
-            val intent = Intent (this@MainActivity, MainActivity::class.java)
+        binding.activityOpcoesAdmQuiz.setOnClickListener {
+            val intent = Intent(this@MainActivity, MainActivity::class.java)
             startActivity(intent)
         }
+
+//        binding.activityOpcoesAdmExposicao.setOnClickListener{
+//            val intent = Intent(this@MainActivity, MainActivity::class.java)
+//            startActivity(intent)
+//        }
 
 
     }
