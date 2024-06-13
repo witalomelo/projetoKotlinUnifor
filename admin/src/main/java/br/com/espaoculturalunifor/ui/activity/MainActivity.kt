@@ -3,6 +3,7 @@ package br.com.espaoculturalunifor.ui.activity
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import br.com.client.ui.activity.exposicao.ExposicaoActivity
 import br.com.client.ui.activity.obras.ObraActivity
 import br.com.client.ui.activity.quiz.MainActivity
 import br.com.espaoculturalunifor.databinding.ActivityMainClientBinding
@@ -26,10 +27,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-//        binding.activityOpcoesAdmExposicao.setOnClickListener{
-//            val intent = Intent(this@MainActivity, MainActivity::class.java)
-//            startActivity(intent)
-//        }
+        binding.activityOpcoesAdmExposicao.setOnClickListener{
+            val intent = Intent(this@MainActivity, ExposicaoActivity::class.java)
+            startActivity(intent)
+        }
 
 
     }

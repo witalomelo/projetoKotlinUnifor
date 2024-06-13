@@ -8,21 +8,21 @@
     android:background="@drawable/app_bg"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/activity_opcoes_adm_exposicao"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="240dp"
-        android:backgroundTint="@color/colorPrimary"
-        android:text="Exposicoes"
-        android:textColor="@color/white" />
+<!--    <Button-->
+<!--        android:id="@+id/activity_opcoes_adm_exposicao"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="240dp"-->
+<!--        android:backgroundTint="@color/colorPrimary"-->
+<!--        android:text="Exposicoes"-->
+<!--        android:textColor="@color/white" />-->
 
 
     <Button
         android:id="@+id/activity_opcoes_adm_obras"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="200dp"
         android:backgroundTint="@color/colorPrimary"
         android:text="Visualizar Obras"
         android:textColor="@color/white" />

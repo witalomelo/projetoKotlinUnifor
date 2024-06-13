@@ -27,10 +27,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        binding.activityOpcoesAdmExposicao.setOnClickListener{
-            val intent = Intent (this@MainActivity, ExposicaoActivity::class.java)
-            startActivity(intent)
-        }
+//        binding.activityOpcoesAdmExposicao.setOnClickListener{
+//            val intent = Intent (this@MainActivity, ExposicaoActivity::class.java)
+//            startActivity(intent)
+//        }
 
 
     }

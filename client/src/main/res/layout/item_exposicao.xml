@@ -3,29 +3,30 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
+    android:background="#E0DCDC"
     android:padding="8dp">
 
     <TextView
         android:id="@+id/tvNomeExposicao"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="18sp"
-        android:textColor="@color/black"
+        android:textColor="#000000"
+        android:textSize="20sp"
         android:textStyle="bold" />
 
     <TextView
-        android:textColor="@color/black"
         android:id="@+id/tvDataExposicao"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="14sp"
-        android:paddingTop="4dp" />
+        android:paddingTop="4dp"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
 
     <TextView
-        android:textColor="@color/black"
         android:id="@+id/tvDescricaoExposicao"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="14sp"
-        android:paddingTop="4dp" />
+        android:paddingTop="4dp"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
 </LinearLayout>
